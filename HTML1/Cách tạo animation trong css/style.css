@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body{
+	background-color: #D8D9DC;
+	padding-top: 50px;
+}
+.khoi{
+	width: 1280px;
+	height: 615px;
+	margin: auto;
+	margin-top: 30px;
+	background-image: url(img/vforum.vn-hinh-anh-nen-ngan-ha-vu-tru-bao-la-2.jpg);
+	background-size: cover;
+	animation: phongto 10s forwards;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@-webkit-keyframes phongto{
+	from{
+		transform: scale(1);
+	}
+	to{
+		transform: scale(1.5);
+	}
+}
+.khoi h2{
+	color: #A3F6F9;
+	font-size: 60px;
+	animation: chaychua 4s forwards;
+	animation-delay: 2s;
+	/*animation: chaychub 4s forwards;*/
+	opacity: 0;
+}
+@-webkit-keyframes chaychua{
+	from{
+		opacity: 0;
+		margin-left: -500px;
+	}
+	to{
+		opacity: 1;
+	}
+}
+/*@-webkit-keyframes chaychub{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+		margin-right: -500px;
+	}
+}*/

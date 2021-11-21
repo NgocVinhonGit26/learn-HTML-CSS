@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body{
+	background-color: #f5f5f5;
+}
+
+.container-main{
+	width: 930px;
+	height: 720px;
+	background-color:  white;
+	margin: auto;
+	margin-top: 50px;
+}
+.new-main{
+	height: 345px;
+	background-color: white;
+	padding: 10px;
+	overflow: hidden;
+}
+}
+.theh2{
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 50px;
+}
+.noi-dung{
+	height: 288px;
+	margin-top: 20px;
+	background-color: #ECF8FF;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.noi-dung img{
+	width: 460px;
+	height: 286px;
+	float: right;
+	margin-left: 70px;
+}
+.noi-dung p{
+	font-family: Arial;
+	font-size: 15px;
+	color: #574949;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-bottom: 1px black dotted;
+	width: 357px;
+	line-height: 21px;
+}
+.noi-dung a{
+	display: block;
+	font-family: Arial;
+	font-size: 13px;
+	color: #574949;
+	text-decoration: none;
+	width: 357px;
+	padding-top: 15px;
+}
+.noi-dung i{
+	color: #b5b5b5;
+	font-size: 5px;
+	margin-top: 5px;
+}
+.thephu{
+	height: 320px;
+	background-color: white;
+	padding: 10px;
+	overflow: hidden;
+	background-color: white;
+	padding-right: 15px;
+}
+
+.thephu img{
+	display: block;
+	width: 225px;
+	height: 140px;
+	margin-bottom: 10px;
+}
+.thephu h6{
+	width: 225px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;	
+}
+.tin{
+	display: inline-block;
+	margin-right: 111px;
+}
+

@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	border: 0;
+}
+#khoitieude{
+	background-color: red;
+	width: 100%;
+	height: 100%;
+	color: white;
+	margin-bottom:5px; 
+}
+
+#canhle{
+	margin-left: 460px;
+	font-size: 50px;
+}
+
+.khoitong{
+	width: 1040px;
+	border: 1px solid black;
+	border-bottom: 2px;
+}
+
+.khoithanhphan{
+	/*background-color: grey;*/
+	width: 1035px;
+	height: 420px;
+	margin-bottom: 1px; 
+	border-bottom: 2px solid #EAEAEA;
+}
+
+.duma{
+	height: 200px;
+}
+
+.anhthanhphan{
+	float: left;
+}
+.fontchu1{
+	/*background-color: #F6F32E;*/
+	font-size: 30px; 
+}
+.fontchu2{
+	color: black;
+	font-size: 20px;
+}
+.font3{
+	font-size: 18px;
+}
+.linknew{
+	display: block;
+	text-decoration: none;
+	color: blue;
+}
+a.linknew:hover{
+	color: #FFD700;
+	background-color: grey;
+	text-decoration: underline;
+}
+.linkphu{
+	background-color: #F6F6F6;
+	width: 1035px;
+	height: 327px;
+	border-bottom: 2px solid #EAEAEA;
+	overflow: hidden;
+}
+#khoiphu1{
+	display: block;
+	width: 310px;
+	float: left;
+	margin-left: 28px;
+}
+#khoiphu2{
+	display: block;
+	margin-left: 390px;
+	margin-right: 336px; 
+}
+#khoiphu3{
+	float: right;
+	margin-top: 0; 
+	width: 309px;
+	display: block;
+}
+
+.fontchu{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 27px;
+	color: #2a3235;
+}
+.fontchuvd{
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+}
+.vd{
+	width: 1035px;
+	height: 5px;
+	background-color: red;
+	overflow: hidden;
+	margin-bottom: 2px; 
+}

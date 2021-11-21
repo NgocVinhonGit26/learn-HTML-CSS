@@ -1,0 +1,29 @@
+@font-face{
+	src:url(font/Roboto-Black.ttf);
+	font-family: Roboto1;
+	src:url(font/Roboto-ThinItalic.ttf);
+	font-family: Roboto2;
+}
+h1.font1{
+	font-family: Roboto1;
+	color: #33FFCC;
+	text-align: center;
+}
+.font2{
+	font-family: Roboto2;
+	color: #FFCC00;
+	background-color: #66CCFF;
+	text-align: center;
+}
+.fontgg{
+	font-family: 'Pangolin', cursive;
+	color: red;
+}
+h3:hover{
+	color: #FF00FF;
+	background-color: #660000;
+}
+h1:hover{
+	color: #FF00FF;
+	background-color: #FF6600;
+}

@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.khoido{
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	position: relative;
+}
+.khoilam{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	left: 10px;
+	bottom: 10px;
+
+}
+.khoiluc{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}

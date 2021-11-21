@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body{
+	background-color: #D8D9DC;
+}
+/*video {
+	z-index: -1000;
+}*/
+.header{
+	width: 100%;
+	height: 1080px;
+	background-image: url(img/vodich.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header h1{
+	font-size: 50px;
+	color: red;
+	background-color: transparent;
+	font-family: arial;
+}
+.header a{
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	border: 1px black dotted;
+	border-radius: 100%;
+	text-decoration: none;
+}
+.khoi1{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	margin-top: 100px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.layer2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #14C39A;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.6s;
+}
+.layer2 i{
+	font-size: 80px;
+	color: #4B9EE7;
+}
+.khoi1:hover .layer2{
+	top: -50px;
+	left: 50px;
+	transition: 0.6s;
+}
+.khoi2{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #FFFFFF;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.layer3{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #14C39A;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.6s;
+	opacity: 0;
+}
+.khoi2 i{
+	font-size: 80px;
+	color: #4B9EE7;
+}
+.khoi2 .layer3 i{
+	font-size: 80px;
+	color: #4B9EE7;
+}
+.khoi2:hover .layer3{
+	top: -50px;
+	left: 50px;
+	transition: 0.6s;
+	opacity: 1;
+}

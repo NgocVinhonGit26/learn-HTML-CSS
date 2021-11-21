@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+	background-color: grey;
+}
+.main-container{
+	width: 380px;
+	height: 210px;
+	margin: 20px;
+	padding: 20px;
+	background-color: white;
+
+}
+@font-face{
+	src:url(Font-chu/Roboto-Black.ttf);
+	font-family: robotoB;
+}
+.fowllow-title{
+	font-family: robotoB;
+	background-color: white;
+	border-bottom: 2px solid black;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.fowllow-title h3{
+	background-color: black;
+	display: inline;
+	color: #FADA1A;
+	padding: 5px 10px;
+}
+.fowllow-icon{
+	font-family: robotoB;
+	background-color: white;
+	/*padding-top: 10px;*/
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+.icon{
+	width: 120px;
+	height: 120px;
+	background-color: #3B5998;
+	float: left;
+	margin-right: 10px; 
+	text-align: center;
+	margin-top: 20px;
+	transition: 0.4s;
+}
+.icon i{
+	font-size: 50px;
+	color: white;
+	background-color: transparent;
+	display: block;
+	margin-top: 10px;
+}
+.icon p{
+	color: white;
+	text-align: center;
+	background-color: transparent;
+	margin-top: 5px;
+}
+.twitter{
+	background-color: #0DBCFF;
+}
+.ggplus{
+	background-color: #E95835;
+}
+.icon:hover{
+	margin-top: 10px;
+	background-color: black;
+	/*width: 150px;
+	height: 150px;*/
+	transition: 0.4s;
+}

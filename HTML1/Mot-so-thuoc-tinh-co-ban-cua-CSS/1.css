@@ -1,0 +1,22 @@
+.khoi-thanh-phan{
+	background-color: white;
+	width: 1200px;
+	height: 400px;
+	margin-bottom: 2px; 
+	border-bottom: 1px solid black;
+}
+
+.img-thanh-phan{
+	float: left;
+}
+
+.khoi-tong{
+	border: 1px solid black;
+	width: 1200px;
+}
+
+.fontchu{
+	background-color: grey;
+	color: black;
+	font-size: 25px;
+}
